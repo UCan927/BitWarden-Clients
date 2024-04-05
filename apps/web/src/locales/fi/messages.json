@@ -3168,7 +3168,7 @@
     }
   },
   "unlinkedSsoUser": {
-    "message": "Irrotti käyttäjän \"$ID$\" kertakirjautumisesta.",
+    "message": "Poisti kertakirjautumisen käyttäjältä \"$ID$\".",
     "placeholders": {
       "id": {
         "content": "$1",
@@ -4955,6 +4955,9 @@
   },
   "addExistingOrganization": {
     "message": "Lisää olemassa oleva organisaatio"
+  },
+  "addNewOrganization": {
+    "message": "Lisää uusi organisaatio"
   },
   "myProvider": {
     "message": "Oma toimittaja"
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Kohteet"
+  },
+  "assignedSeats": {
+    "message": "Määritetyt käyttäjäpaikat"
+  },
+  "assigned": {
+    "message": "Määritetty"
+  },
+  "used": {
+    "message": "Käytetty"
+  },
+  "remaining": {
+    "message": "Jäljellä"
+  },
+  "unlinkOrganization": {
+    "message": "Irrota organisaatio"
+  },
+  "manageSeats": {
+    "message": "HALLITSE KÄYTTÄJÄPAIKKOJA"
+  },
+  "manageSeatsDescription": {
+    "message": "Käyttäjäpaikkojen muutokset näkyvät seuraavalla laskutuskaudella."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Tilauksen määrittämättömät käyttäjäpaikat"
+  },
+  "purchaseSeatDescription": {
+    "message": "Käyttäjäpaikkoja ostettu lisää"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Määritettyjä käyttäjäpaikkoja ei ole mahdollista päivittää. Ole yhteydessä organisaatiosi omistajaan saadaksesi apua."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Tilausmuutos epäonnistui"
+  },
+  "trial": {
+    "message": "Kokeilu",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Erääntynyt",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Tilaus on päättynyt",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Sinulla on $DAYS$ päivän varoaika tilauksesi säilyttämiseksi. Maksa erääntyneet laskut $SUSPENSION_DATE$ mennessä.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Sinulla on $DAYS$ päivän varoaika ensimmäisen erääntyneen laskusi eräpäivästä tilauksesi säilyttämiseksi. Maksa erääntyneet laskut $SUSPENSION_DATE$ mennessä.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Maksamaton lasku",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Palauta tilauksesi käyttöön maksamalla erääntyneet laskut.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Peruutuspäivä",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

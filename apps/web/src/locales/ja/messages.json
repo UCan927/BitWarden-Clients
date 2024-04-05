@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "既存の組織を追加する"
   },
+  "addNewOrganization": {
+    "message": "新しい組織を追加"
+  },
   "myProvider": {
     "message": "プロバイダー"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "アイテム"
+  },
+  "assignedSeats": {
+    "message": "割り当て済のシート"
+  },
+  "assigned": {
+    "message": "割り当て済"
+  },
+  "used": {
+    "message": "使用中"
+  },
+  "remaining": {
+    "message": "残り"
+  },
+  "unlinkOrganization": {
+    "message": "組織のリンクを解除"
+  },
+  "manageSeats": {
+    "message": "シートの管理"
+  },
+  "manageSeatsDescription": {
+    "message": "調整したシートは、次の請求サイクルで反映されます。"
+  },
+  "unassignedSeatsDescription": {
+    "message": "未割り当てのサブスクリプションシート"
+  },
+  "purchaseSeatDescription": {
+    "message": "追加シートを購入しました"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "割り当て済のシートは更新できません。組織の所有者に連絡してください。"
+  },
+  "subscriptionUpdateFailed": {
+    "message": "サブスクリプションの更新に失敗しました"
+  },
+  "trial": {
+    "message": "お試し",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "期限切れ",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "サブスクリプションの有効期限が切れました",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "期限が切れた日から$DAYS$日間の猶予期間があり、支払いを済ませればサブスクリプションを継続できます。期限切れになった請求書の支払いを $SUSPENSION_DATE$ までに済ませてください。",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "最初の未払いの請求書の期限日から$DAYS$日間の猶予期間があり、支払いを済ませればサブスクリプションを継続できます。期限切れになった請求書の支払いを $SUSPENSION_DATE$ までに済ませてください。",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "未払い請求書",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "サブスクリプションを再度有効にするには、期限切れになった請求書の支払いをしてください。",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "解約日",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

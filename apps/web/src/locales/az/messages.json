@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Mövcud təşkilatı əlavə et"
   },
+  "addNewOrganization": {
+    "message": "Yeni təşkilat əlavə et"
+  },
   "myProvider": {
     "message": "Provayderim"
   },
@@ -7607,28 +7610,28 @@
     "message": "Özünüzü kolleksiyalara əlavə edə bilməzsiniz."
   },
   "assign": {
-    "message": "Assign"
+    "message": "Təyin et"
   },
   "assignToCollections": {
-    "message": "Assign to collections"
+    "message": "Kolleksiyalara təyin et"
   },
   "assignToTheseCollections": {
-    "message": "Assign to these collections"
+    "message": "Bu kolleksiyalara təyin et"
   },
   "bulkCollectionAssignmentDialogDescription": {
-    "message": "Select the collections that the items will be shared with. Once an item is updated in one collection, it will be reflected in all collections. Only organization members with access to these collections will be able to see the items."
+    "message": "Elementlərin paylaşılacağı kolleksiyaları seçin. Bir kolleksiyada bir element güncəlləndikdə, bütün kolleksiyalarda əks olunacaq. Elementləri, yalnız bu kolleksiyalara müraciət edə bilən təşkilat üzvləri görə bilər."
   },
   "selectCollectionsToAssign": {
-    "message": "Select collections to assign"
+    "message": "Təyin ediləcək kolleksiyaları seçin"
   },
   "noCollectionsAssigned": {
-    "message": "No collections have been assigned"
+    "message": "Heç bir kolleksiya təyin edilmədi"
   },
   "successfullyAssignedCollections": {
-    "message": "Successfully assigned collections"
+    "message": "Uğurla təyin edilən kolleksiyalar"
   },
   "bulkCollectionAssignmentWarning": {
-    "message": "You have selected $TOTAL_COUNT$ items. You cannot update $READONLY_COUNT$ of the items because you do not have edit permissions.",
+    "message": "$TOTAL_COUNT$ element seçmisiniz. Düzəliş icazəniz olmadığı üçün $READONLY_COUNT$ elementi güncəlləyə bilməzsiniz.",
     "placeholders": {
       "total_count": {
         "content": "$1",
@@ -7641,6 +7644,91 @@
     }
   },
   "items": {
-    "message": "Items"
+    "message": "Elementlər"
+  },
+  "assignedSeats": {
+    "message": "Təyin edilən yerlər"
+  },
+  "assigned": {
+    "message": "Təyin edilmiş"
+  },
+  "used": {
+    "message": "İstifadə edilmiş"
+  },
+  "remaining": {
+    "message": "Qalan"
+  },
+  "unlinkOrganization": {
+    "message": "Təşkilatı ayır"
+  },
+  "manageSeats": {
+    "message": "YERLƏRİ İDARƏ ET"
+  },
+  "manageSeatsDescription": {
+    "message": "Yerlərə edilən düzəlişlər növbəti hesablaşma dövründə öz əksini tapacaq."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Təyin edilməmiş abunəlik yerləri"
+  },
+  "purchaseSeatDescription": {
+    "message": "Əlavə yerlər satın alındı"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Təyin edilən yerlər güncəllənə bilməz. Lütfən kömək üçün təşkilatınızın sahibi ilə əlaqə saxlayın."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Abunəlik güncəllənmədi"
+  },
+  "trial": {
+    "message": "Sınaq",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Vaxtı keçmiş",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Abunəliyin müddəti bitib",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Abunəliyinizi davam etdirmək üçün abunəliyin bitmə tarixindən etibarən $DAYS$ gün güzəşt dövrünüz var. $SUSPENSION_DATE$ tarixinə qədər vaxtı keçmiş fakturaları həll edin.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Abunəliyinizi davam etdirmək üçün ilk ödənilməmiş fakturanızın yazıldığı tarixdən etibarən $DAYS$ gün güzəşt dövrünüz var. $SUSPENSION_DATE$ tarixinə qədər vaxtı keçmiş fakturaları həll edin.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Ödənilməmiş faktura",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Abunəliyi yenidən aktivləşdirmək üçün lütfən vaxtı keçmiş fakturaları həll edin.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Ləğv tarixi",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

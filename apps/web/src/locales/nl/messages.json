@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Bestaande organisatie toevoegen"
   },
+  "addNewOrganization": {
+    "message": "Nieuwe organisatie toevoegen"
+  },
   "myProvider": {
     "message": "Mijn provider"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Items"
+  },
+  "assignedSeats": {
+    "message": "Toegewezen plaatsen"
+  },
+  "assigned": {
+    "message": "Toegewezen"
+  },
+  "used": {
+    "message": "Gebruikt"
+  },
+  "remaining": {
+    "message": "Resterend"
+  },
+  "unlinkOrganization": {
+    "message": "Organisatie ontkoppelen"
+  },
+  "manageSeats": {
+    "message": "PLAATSEN BEHEREN"
+  },
+  "manageSeatsDescription": {
+    "message": "Aanpassingen op plaatsen zijn effectief in de volgende factureringscyclus."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Niet-toegewezen stoelen"
+  },
+  "purchaseSeatDescription": {
+    "message": "Aanvullende gekochte plaatsen"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Je kunt toegewezen plaatsen niet bijwerken. Neem contact op met de eigenaar van je organisatie voor ondersteuning."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Abonnement bijwerken mislukt"
+  },
+  "trial": {
+    "message": "Proefperiode",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Verlopen",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Abonnement verlopen",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Je hebt een gratieperiode van $DAYS$ dagen vanaf de vervaldatum van je abonnement om je abonnement te behouden. Graag de openstaande facturen voor $SUSPENSION_DATE$ voldoen.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Je hebt een gratieperiode van $DAYS$ dagen vanaf de datum waarop je eerste niet-betaalde factuur verloopt om je abonnement te behouden. Graag de openstaande facturen voor $SUSPENSION_DATE$ voldoen.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Openstaande factuur",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Voldoe de openstaande facturen om je abonnement te activeren.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Annuleringsdatum",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

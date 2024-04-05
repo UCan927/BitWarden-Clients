@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Додај постојећу организацију"
   },
+  "addNewOrganization": {
+    "message": "Додај нову организацију"
+  },
   "myProvider": {
     "message": "Мој провајдер"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Ставке"
+  },
+  "assignedSeats": {
+    "message": "Додељена места"
+  },
+  "assigned": {
+    "message": "Додељено"
+  },
+  "used": {
+    "message": "У употреби"
+  },
+  "remaining": {
+    "message": "Преостало"
+  },
+  "unlinkOrganization": {
+    "message": "Прекини везу са организацијом"
+  },
+  "manageSeats": {
+    "message": "УПРАВЉАЈТЕ МЕСТИМА"
+  },
+  "manageSeatsDescription": {
+    "message": "Прилагођавања местима ће се одразити на следећи обрачунски циклус."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Недодијељена претплатничка места"
+  },
+  "purchaseSeatDescription": {
+    "message": "Додатна места су купљена"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Додељена места се не могу ажурирати. За помоћ контактирајте власника организације."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Ажурирање претплате није успело"
+  },
+  "trial": {
+    "message": "Проба",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Протекли задаци",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Претплата је истекла",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Имате грејс период од $DAYS$ дана од датума истека ваше претплате да бисте одржали претплату. Решите фактуре са кашњењем до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Имате грејс период од $DAYS$ дана од датума када ваша прва неплаћена фактура треба да одржи претплату. Решите фактуре са кашњењем до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Неплаћен рачун",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Да бисте поново активирали своју претплату, решите фактуре са кашњењем.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Датум отказивања",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

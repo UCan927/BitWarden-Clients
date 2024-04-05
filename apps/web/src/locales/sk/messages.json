@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Pridať existujúcu organizáciu"
   },
+  "addNewOrganization": {
+    "message": "Pridať novú organizáciu"
+  },
   "myProvider": {
     "message": "Môj poskytovateľ"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Položky"
+  },
+  "assignedSeats": {
+    "message": "Pridelené sedenia"
+  },
+  "assigned": {
+    "message": "Pridelené"
+  },
+  "used": {
+    "message": "Použité"
+  },
+  "remaining": {
+    "message": "Zostáva"
+  },
+  "unlinkOrganization": {
+    "message": "Odpojiť organizáciu"
+  },
+  "manageSeats": {
+    "message": "SPRAVOVAŤ SEDENIA"
+  },
+  "manageSeatsDescription": {
+    "message": "Zmeny v sedeniach sa prejavia v najbližšom fakturačnom období."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Nepridelené sedenia predplatného"
+  },
+  "purchaseSeatDescription": {
+    "message": "Boli zakúpené dodatočné sedenia"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Pridelené sedenia sa nedajú aktualizovať. Pre pomoc prosím kontaktujte vlastníka vašej organizácie."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Aktualizácia predplatného zlyhala"
+  },
+  "trial": {
+    "message": "Trial",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Past due",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Subscription expired",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "You have a grace period of $DAYS$ days from your subscription expiration date to maintain your subscription. Please resolve the past due invoices by $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "You have a grace period of $DAYS$ days from the date your first unpaid invoice is due to maintain your subscription. Please resolve the past due invoices by $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Unpaid invoice",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "To reactivate your subscription, please resolve the past due invoices.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Cancellation date",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Pievienot esošo apvienību"
   },
+  "addNewOrganization": {
+    "message": "Pievienot jaunu apvienību"
+  },
   "myProvider": {
     "message": "Mans nodrošinātājs"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Vienumi"
+  },
+  "assignedSeats": {
+    "message": "Piešķirtās vietas"
+  },
+  "assigned": {
+    "message": "Piešķirts"
+  },
+  "used": {
+    "message": "Izmantots"
+  },
+  "remaining": {
+    "message": "Atlicis"
+  },
+  "unlinkOrganization": {
+    "message": "Atsaistīt apvienību"
+  },
+  "manageSeats": {
+    "message": "PĀRVALDĪT VIETAS"
+  },
+  "manageSeatsDescription": {
+    "message": "Vietu izmaiņas tiks atspoguļotas nākamajā norēķinu posmā."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Noņemtas piešķirtās abonementa vietas"
+  },
+  "purchaseSeatDescription": {
+    "message": "Iegādātas papildu vietas"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Piešķirtās vietas nevar atjaunināt. Lūgums vērsties pēc palīdzības pie sava apvienības īpašnieka."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Abonementa atjaunināšana neizdevās"
+  },
+  "trial": {
+    "message": "Izmēģinājums",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Nokavēts",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Abonements ir beidzies",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Tev ir $DAYS$ dienu papildu laiks no abonementa beigu datuma, lai paturētu savu abonementu. Lūgums apmaksāt nokavētos rēķinus līdz $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Tev ir $DAYS$ dienu papildu laiks no pirmā neapmaksātā rēķina datuma, lai paturētu savu abonementu. Lūgums apmaksāt nokavētos rēķinus līdz $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Neapmaksāts rēķins",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Lai atjaunotu savu abonementu, lūgums apmaksāt nokavētos rēķinus.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Atcelšanas datums",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

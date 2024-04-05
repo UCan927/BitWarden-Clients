@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Добавяне на съществуваща организация"
   },
+  "addNewOrganization": {
+    "message": "Добавяне на нова организация"
+  },
   "myProvider": {
     "message": "Моят доставчик"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Елементи"
+  },
+  "assignedSeats": {
+    "message": "Назначени места"
+  },
+  "assigned": {
+    "message": "Назначени"
+  },
+  "used": {
+    "message": "Използвани"
+  },
+  "remaining": {
+    "message": "Оставащи"
+  },
+  "unlinkOrganization": {
+    "message": "Разкачане на организацията"
+  },
+  "manageSeats": {
+    "message": "УПРАВЛЕНИЕ НА МЕСТАТА"
+  },
+  "manageSeatsDescription": {
+    "message": "Промените по местата ще се отразят в следващия платежен цикъл."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Неназначени места от абонамента"
+  },
+  "purchaseSeatDescription": {
+    "message": "Закупени са нови места"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Назначените места не могат да бъдат променени. Свържете се със собственика на организацията си за помощ."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Промяната на абонамента беше неуспешна"
+  },
+  "trial": {
+    "message": "Пробен период",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Просрочено",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Абонаментът е изтекъл",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "След като просрочите периода на абонамента си, разполагате с още $DAYS$ дни, за да го подновите. Моля, заплатете старите фактури до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "След като просрочите срока на първата си неплатена фактура, разполагате с още $DAYS$ дни, за да подновите абонамента си. Моля, заплатете старите фактури до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Неплатена фактура",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "За да подновите абонамента си, моля, заплатете фактурите с изтекъл срок.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Дата на прекратяване",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

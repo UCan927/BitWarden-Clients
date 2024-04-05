@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Додати наявну організацію"
   },
+  "addNewOrganization": {
+    "message": "Додати нову організацію"
+  },
   "myProvider": {
     "message": "Мій провайдер"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Записи"
+  },
+  "assignedSeats": {
+    "message": "Призначені місця"
+  },
+  "assigned": {
+    "message": "Призначено"
+  },
+  "used": {
+    "message": "Використано"
+  },
+  "remaining": {
+    "message": "Залишилось"
+  },
+  "unlinkOrganization": {
+    "message": "Від'єднати організацію"
+  },
+  "manageSeats": {
+    "message": "КЕРУВАТИ МІСЦЯМИ"
+  },
+  "manageSeatsDescription": {
+    "message": "Скориговані місця будуть відображені в наступному платіжному циклі."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Непризначені місця передплати"
+  },
+  "purchaseSeatDescription": {
+    "message": "Додаткові придбані місця"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Призначені місця не можна оновити. Будь ласка, зверніться до власника вашої організації по допомогу."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Не вдалося оновити передплату"
+  },
+  "trial": {
+    "message": "Пробний період",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Протерміновано",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Термін дії передплати завершився",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "У вас є $DAYS$ днів пільгового періоду після завершення передплати для можливості її поновлення. Будь ласка, сплатіть протерміновані рахунки до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "У вас є $DAYS$ днів пільгового періоду від дати протермінування першого несплаченого рахунку. Протягом цього часу вам необхідно поновити передплату. Будь ласка, сплатіть протерміновані рахунки до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Несплачений рахунок",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Будь ласка, сплатіть протерміновані рахунки, щоб знову активувати передплату.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Дата скасування",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

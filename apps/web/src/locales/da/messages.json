@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Tilføj eksisterende organisation"
   },
+  "addNewOrganization": {
+    "message": "Tilføj ny organisation"
+  },
   "myProvider": {
     "message": "Min udbyder"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Emner"
+  },
+  "assignedSeats": {
+    "message": "Tildelte pladser"
+  },
+  "assigned": {
+    "message": "Tildelte"
+  },
+  "used": {
+    "message": "Brugte"
+  },
+  "remaining": {
+    "message": "Resterer"
+  },
+  "unlinkOrganization": {
+    "message": "Fjern associering til organisation"
+  },
+  "manageSeats": {
+    "message": "HÅNDTERING AF PLADSER"
+  },
+  "manageSeatsDescription": {
+    "message": "Justeringer af pladser afspejles i den næste faktureringsperiode."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Ikke-tildelte abonnementspladser"
+  },
+  "purchaseSeatDescription": {
+    "message": "Yderligere pladser tilkøbt"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Tildelte pladser kan ikke opdateres. Kontakt organisationsejeren for assistance."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Abonnementsopdatering mislykkedes"
+  },
+  "trial": {
+    "message": "Prøveperiode",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Forfalden",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Abonnement udløbet",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Der er en respitperiode på $DAYS$ dage fra abonnementsudløbsdatoen til at bevare abonnementet. Afregn venligst de forfaldne fakturaer inden $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Der er en respitperiode på $DAYS$ dage fra første fakturaforfaldsdato til at bevare abonnementet. Afregn venligst de forfaldne fakturaer inden $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Ubetalt faktura",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Afregn de tidligere forfaldne fakturaer for at genaktivere abonnementet.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Cancellation date",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

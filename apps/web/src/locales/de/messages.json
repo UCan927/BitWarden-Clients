@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Bestehende Organisation hinzufügen"
   },
+  "addNewOrganization": {
+    "message": "Add new organization"
+  },
   "myProvider": {
     "message": "Mein Anbieter"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Einträge"
+  },
+  "assignedSeats": {
+    "message": "Assigned seats"
+  },
+  "assigned": {
+    "message": "Assigned"
+  },
+  "used": {
+    "message": "Used"
+  },
+  "remaining": {
+    "message": "Remaining"
+  },
+  "unlinkOrganization": {
+    "message": "Unlink organization"
+  },
+  "manageSeats": {
+    "message": "MANAGE SEATS"
+  },
+  "manageSeatsDescription": {
+    "message": "Adjustments to seats will be reflected in the next billing cycle."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Unassigned subscription seats"
+  },
+  "purchaseSeatDescription": {
+    "message": "Additional seats purchased"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Assigned Seats can not be updated. Please contact your organization owner for assistance."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Subscription update failed"
+  },
+  "trial": {
+    "message": "Testversion",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Überfällig",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Abonnement abgelaufen",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Du hast eine Übergangsfrist von $DAYS$ Tagen ab dem Ablaufdatum deines Abonnements, um dein Abonnement weiterzuführen. Bitte begleiche die letzten fälligen Rechnungen bis zum $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Du hast eine Übergangsfrist von $DAYS$ Tagen ab dem Fälligkeitsdatum deiner ersten unbezahlten Rechnung, um dein Abonnement weiterzuführen. Bitte begleiche die überfälligen Rechnungen bis zum $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Unbezahlte Rechnung",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Um dein Abonnement zu reaktivieren, begleiche bitte die letzten überfälligen Rechnungen.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Kündigungsdatum",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

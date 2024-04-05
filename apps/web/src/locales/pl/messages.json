@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Dodaj obecną organizację"
   },
+  "addNewOrganization": {
+    "message": "Dodaj nową organizację"
+  },
   "myProvider": {
     "message": "Mój dostawca"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Elementy"
+  },
+  "assignedSeats": {
+    "message": "Przypisane miejsca"
+  },
+  "assigned": {
+    "message": "Przypisane"
+  },
+  "used": {
+    "message": "Użyte"
+  },
+  "remaining": {
+    "message": "Pozostałe"
+  },
+  "unlinkOrganization": {
+    "message": "Odłącz organizację"
+  },
+  "manageSeats": {
+    "message": "ZARZĄDZAJ MIEJSCAMI"
+  },
+  "manageSeatsDescription": {
+    "message": "Dostosowania miejsc zostaną odzwierciedlone w kolejnym cyklu rozliczeniowym."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Nieprzydzielone miejsca w subskrypcji"
+  },
+  "purchaseSeatDescription": {
+    "message": "Zakupiono dodatkowe miejsca"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Przypisane miejsca nie mogą zostać zaktualizowane. Skontaktuj się z właścicielem organizacji, aby uzyskać pomoc."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Aktualizacja subskrypcji nie powiodła się"
+  },
+  "trial": {
+    "message": "Wersja próbna",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Termin przekroczony",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Subskrypcja wygasła",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Masz okres karencji $DAYS$ dni od daty wygaśnięcia subskrypcji, aby utrzymać subskrypcję. Opłać zaległe faktury przed $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Masz okres karencji $DAYS$ dni od dnia, w którym Twoja pierwsza niezapłacona faktura dotycząca subskrypcji się przeterminowała. Opłać zaległe faktury przed $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Nieopłacona faktura",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Aby reaktywować subskrypcję, opłać zaległe faktury.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Data anulowania",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

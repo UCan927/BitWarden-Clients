@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Добавить существующую организацию"
   },
+  "addNewOrganization": {
+    "message": "Добавить новую организацию"
+  },
   "myProvider": {
     "message": "Мой поставщик"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Элементы"
+  },
+  "assignedSeats": {
+    "message": "Назначенные места"
+  },
+  "assigned": {
+    "message": "Назначено"
+  },
+  "used": {
+    "message": "Использовано"
+  },
+  "remaining": {
+    "message": "Осталось"
+  },
+  "unlinkOrganization": {
+    "message": "Отвязать организацию"
+  },
+  "manageSeats": {
+    "message": "УПРАВЛЕНИЕ МЕСТАМИ"
+  },
+  "manageSeatsDescription": {
+    "message": "Корректировка мест будет отражена в следующем расчетном цикле."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Нераспределенные места в соответствии с подпиской"
+  },
+  "purchaseSeatDescription": {
+    "message": "Приобретено дополнительных мест"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Назначенные места не могут быть обновлены. Обратитесь за помощью к владельцу организации."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Не удалось обновить подписку"
+  },
+  "trial": {
+    "message": "Пробная версия",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Просрочено",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Срок действия подписки истек",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "У вас есть льготный период в $DAYS$ дней с даты истечения срока действия подписки, чтобы сохранить подписку. Пожалуйста, решите вопрос с просроченными платежами до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "У вас есть льготный период в $DAYS$ дней с момента оплаты первого неоплаченного счета, чтобы сохранить подписку. Пожалуйста, решите вопрос с просроченными платежами до $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Неоплаченный счет",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Чтобы возобновить подписку, пожалуйста, решите вопрос с просроченными платежами.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Дата аннуляции",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

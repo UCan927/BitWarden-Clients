@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Létező fordítások hozzáadása"
   },
+  "addNewOrganization": {
+    "message": "Új szervezet hozzáadása"
+  },
   "myProvider": {
     "message": "Saját szolgáltató"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Elemek"
+  },
+  "assignedSeats": {
+    "message": "Hozzárendelt helyek"
+  },
+  "assigned": {
+    "message": "Hozzárendelve"
+  },
+  "used": {
+    "message": "Felhasznált"
+  },
+  "remaining": {
+    "message": "Maradt"
+  },
+  "unlinkOrganization": {
+    "message": "Szervezet leválasztása"
+  },
+  "manageSeats": {
+    "message": "HELYEK KEZELÉSE"
+  },
+  "manageSeatsDescription": {
+    "message": "A helyek módosításai a következő számlázási ciklusban jelennek meg."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Nem hozzárendelt előfizetési helyek"
+  },
+  "purchaseSeatDescription": {
+    "message": "További megvásárolt helyek"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "A hozzárendelt helyek nem frissíthetők. Segítségért forduljunk a szervezet tulajdonosához."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Az előfizetés frissítés sikertelen volt."
+  },
+  "trial": {
+    "message": "Próba",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Határidőn túl",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Az előfizetés lejárt.",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Az előfizetés lejárati dátumától számítva $DAYS$ nap türelmi időszak áll rendelkezésére az előfizetés fenntartásához. Rendezzük a lejárt számlákat a következő időpontig: $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Az első kifizetetlen számla esedékességétől számítva $DAYS$ nap türelmi időszak áll rendelkezésére az előfizetés fenntartására. Rendezzük a lejárt számlákat a következő időpontig: $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Kifizetetlen számla",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Az előfizetés újraaktiválásához oldjuk meg a lejárt számlákat.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Lemondási dátum",
+    "description": "The date header used when a subscription is cancelled."
   }
 }

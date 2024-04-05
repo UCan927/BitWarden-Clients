@@ -4956,6 +4956,9 @@
   "addExistingOrganization": {
     "message": "Ajouter une organisation existante"
   },
+  "addNewOrganization": {
+    "message": "Ajouter une nouvelle organisation"
+  },
   "myProvider": {
     "message": "Mon fournisseur"
   },
@@ -7642,5 +7645,90 @@
   },
   "items": {
     "message": "Éléments"
+  },
+  "assignedSeats": {
+    "message": "Places assignées"
+  },
+  "assigned": {
+    "message": "Assigné"
+  },
+  "used": {
+    "message": "Utilisé"
+  },
+  "remaining": {
+    "message": "Restant"
+  },
+  "unlinkOrganization": {
+    "message": "Délier l'organisation"
+  },
+  "manageSeats": {
+    "message": "GÉRER LES PLACES"
+  },
+  "manageSeatsDescription": {
+    "message": "Les ajustements aux licences seront reflétés lors du prochain cycle de facturation."
+  },
+  "unassignedSeatsDescription": {
+    "message": "Licenses d'abonnement non assignés"
+  },
+  "purchaseSeatDescription": {
+    "message": "Licenses additionnelles achetées"
+  },
+  "assignedSeatCannotUpdate": {
+    "message": "Les Licences assignées ne peuvent être mises à jour. Veuillez contacter le propriétaire de votre organisation pour assistance."
+  },
+  "subscriptionUpdateFailed": {
+    "message": "Mise à jour de l'abonnement échouée"
+  },
+  "trial": {
+    "message": "Essai",
+    "description": "A subscription status label."
+  },
+  "pastDue": {
+    "message": "Échéance dépassée",
+    "description": "A subscription status label"
+  },
+  "subscriptionExpired": {
+    "message": "Abonnement expiré",
+    "description": "The date header used when a subscription is past due."
+  },
+  "pastDueWarningForChargeAutomatically": {
+    "message": "Vous bénéficiez d'une période de grace de $DAYS$ jours suivants la date d'expiration de votre abonnement pour le maintenir. Veuillez adresser les paiements en souffrance pour les factures dont les échéances sont passées d'ici le $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they are charged automatically."
+  },
+  "pastDueWarningForSendInvoice": {
+    "message": "Vous bénéficiez d'une période de grace de $DAYS$ jours à partir de la première journée de votre première facture impayée pour maintenir votre abonnement. Veuillez adresser les paiements en souffrance pour les factures dont les échéances sont passées d'ici le $SUSPENSION_DATE$.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "11"
+      },
+      "suspension_date": {
+        "content": "$2",
+        "example": "01/10/2024"
+      }
+    },
+    "description": "A warning shown to the user when their subscription is past due and they pay via invoice."
+  },
+  "unpaidInvoice": {
+    "message": "Facture impayée",
+    "description": "The header of a warning box shown to a user whose subscription is unpaid."
+  },
+  "toReactivateYourSubscription": {
+    "message": "Pour réactiver votre abonnement, veuillez adresser les paiements en souffrance pour les factures dont les échéances sont passées.",
+    "description": "The body of a warning box shown to a user whose subscription is unpaid."
+  },
+  "cancellationDate": {
+    "message": "Date d'annulation",
+    "description": "The date header used when a subscription is cancelled."
   }
 }
